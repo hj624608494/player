@@ -46,6 +46,21 @@
 ```javascript
 var player = new Player({
     url: './1.mp3',
-    container: 'audio-container'
+    container: 'audio-container', // 可选
+    skin: 'blue' // 可选 (默认为红色, 传 'blue' 为蓝色, 传 'green' 为绿色)
 })
 ```
+
+## 皮肤 skin
+
+#### 红色版
+
+![image](./screenshot/red.png)
+
+#### 蓝色版
+
+![image](./screenshot/blue.png)
+
+#### 绿色版
+
+![image](./screenshot/green.png)

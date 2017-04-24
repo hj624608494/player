@@ -1,4 +1,5 @@
-/* E83C3C */
+/* 红色版 E83C3C */
+/* 蓝色版 1BA3F1 */
 *{
     margin: 0;
     padding: 0;
@@ -116,4 +117,35 @@
 }
 .audio-volume .volume-container:hover .circle{
     display: inline-block;
+}
+
+
+
+/* 蓝色版 1BA3F1 */
+.audio-skin-blue .audio-controls .iconfont{
+    background-color: #1BA3F1;
+}
+
+.audio-skin-blue .audio-progress .progress-container .progress,
+.audio-skin-blue .audio-volume .volume-container .volume{
+    background-color: #1BA3F1;
+}
+
+.audio-skin-blue .circle::after{
+    background-color: #1BA3F1;
+}
+
+
+/* 绿色版 31C27C */
+.audio-skin-green .audio-controls .iconfont{
+    background-color: #31C27C;
+}
+
+.audio-skin-green .audio-progress .progress-container .progress,
+.audio-skin-green .audio-volume .volume-container .volume{
+    background-color: #31C27C;
+}
+
+.audio-skin-green .circle::after{
+    background-color: #31C27C;
 }

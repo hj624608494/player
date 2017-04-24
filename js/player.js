@@ -41,7 +41,14 @@ Player.prototype.init = function() {
     }
 
     _this.volume();
+    _this.skin();
 };
+
+Player.prototype.skin = function() {
+    if (this.options.skin) {
+        this.container.className = this.container.className + ' audio-skin-' + this.options.skin;
+    }
+}
 
 Player.prototype.play = function() {
     this.ele.play();
